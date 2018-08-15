@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+    <h1>各种水果</h1>
+    <ul>
+        {% for i in guo %}
+        <li>{{i.name}}的成熟月份是{{i.month}}月份</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
